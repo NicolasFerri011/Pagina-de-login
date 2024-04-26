@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
 }
 .main-login{
@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.left-login {
+.left-login{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -20,14 +20,14 @@ body {
 .left-login > h1 {
 color: #77ffc0;
 }
-.right-login {
+.right-login{
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-login {
+.card-login{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -35,7 +35,34 @@ color: #77ffc0;
     flex-direction: column;
     padding: 30px 35px;
     background: #2f2841;
-    border: 20px;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000052;
+}
+.card-login > h1 {
+    color: #77ffc0;
+    font-weight: 800;
+    margin: 0%;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000052;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px 0px;
 }
